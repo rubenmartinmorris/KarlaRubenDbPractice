@@ -1,0 +1,33 @@
+{
+  "name": "karlarubendbpractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenmartinmorris/KarlaRubenDbPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubenmartinmorris/KarlaRubenDbPractice/issues"
+  },
+  "homepage": "https://github.com/rubenmartinmorris/KarlaRubenDbPractice#readme",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^14.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.2.0",
+    "mockgoose": "^8.0.4",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.7",
+    "supertest": "^6.2.2"
+  }
+}
